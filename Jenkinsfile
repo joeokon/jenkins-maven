@@ -2,9 +2,6 @@ pipeline {
 
     agent any {
 
-        label "main"
-    }
-
     tools {
 
         maven "maven3.8.6"
