@@ -1,6 +1,6 @@
 pipeline {
 
-    any agent {
+    any {
 
         label "main"
     }
