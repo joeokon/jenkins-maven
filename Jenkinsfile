@@ -1,6 +1,6 @@
 pipeline {
 
-    agent any {
+    agent any 
 
     tools {
 
@@ -18,5 +18,4 @@ pipeline {
             }
         }
     }
-    
-}
+}    
