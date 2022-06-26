@@ -2,12 +2,12 @@ pipeline {
 
     agent {
 
-        label "master"
+        label "main"
     }
 
     tools {
 
-        maven "MAVEN"
+        maven "maven3.8.6"
     }
 
     
